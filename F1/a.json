@@ -57,19 +57,19 @@
       ]
     },
     {
-      "name": "Disable Wifi",
+      "name": "Enable Wifi",
       "projectid": 123,
       "data": [
         {
-          "label": "disable_wifi",
+          "label": "enable_wifi",
           "echeck": "yes",
           "mcheck": "no",
           "target": "phone",
           "screen": 4,
-          "template": "D:FA/image6"
+          "template": "D:FA/image7"
         }
       ]
-    }
+    },
     {
       "name": "logout from application",
       "projectid": 123,
