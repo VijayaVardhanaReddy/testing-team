@@ -1,0 +1,74 @@
+{
+  "TestCases": [
+    {
+      "name": "open settings app",
+      "projectid": 123,
+      "data": [
+        {
+          "label": "open_app",
+          "echeck": "yes",
+          "mcheck": "no",
+          "target": "phone",
+          "screen": 1,
+          "template": "D:FA/image1"
+        }
+      ]
+    },
+    {
+      "name": "login to application",
+      "projectid": 123,
+      "data": [
+        {
+          "label": "login_user",
+          "echeck": "yes",
+          "mcheck": "yes",
+          "target": "phone",
+          "screen": 2,
+          "template": "D:FA/image2"
+        }
+      ]
+    },
+    {
+      "name": "navigate to profile page",
+      "projectid": 123,
+      "data": [
+        {
+          "label": "open_profile",
+          "echeck": "no",
+          "mcheck": "yes",
+          "target": "phone",
+          "screen": 3,
+          "template": "D:FA/image3"
+        }
+      ]
+    },
+    {
+      "name": "update user settings",
+      "projectid": 123,
+      "data": [
+        {
+          "label": "update_settings",
+          "echeck": "yes",
+          "mcheck": "no",
+          "target": "phone",
+          "screen": 4,
+          "template": "D:FA/image4"
+        }
+      ]
+    },
+    {
+      "name": "logout from application",
+      "projectid": 123,
+      "data": [
+        {
+          "label": "logout_user",
+          "echeck": "yes",
+          "mcheck": "yes",
+          "target": "phone",
+          "screen": 5,
+          "template": "D:FA/image5"
+        }
+      ]
+    }
+  ]
+}
